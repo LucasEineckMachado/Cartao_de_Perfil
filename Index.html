@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cartão de Perfil Interativo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  <!-- Ícones do Font Awesome -->
+</head>
+<body>
+    <div class="card">
+        <!-- Topo do cartão -->
+        <div class="ds-top"></div>
+
+        <!-- Avatar -->
+        <div class="avatar-holder">
+            <img src="eu.png" alt="Foto de Lucas Eineck Machado">
+        </div>
+
+        <!-- Nome e seguidores -->
+        <div class="name">
+            <a href="https://github.com/LucasEineckMachado" target="_blank" rel="noopener noreferrer">
+                Lucas Eineck Machado
+            </a>
+            <h6 title="Seguidores">
+                <i class="fas fa-users"></i>
+                <span class="followers">0</span> <!-- Será atualizado pelo JavaScript -->
+            </h6>
+        </div>
+
+       <!-- Botões de redes sociais -->
+        <div class="button-container">
+            <!-- Botão Instagram -->
+            <a href="https://www.instagram.com/lucasmachado5479/" class="button instagram btn">
+                Instagram <i class="fab fa-instagram"></i>
+            </a>
+
+            <!-- Botão Discord -->
+            <a href="https://discord.com/users/513000324764532760" class="button discord btn">
+                Discord <i class="fab fa-discord"></i>
+            </a>
+
+            <!-- Botão E-mail -->
+            <a href="mailto:Polunar121@gmail.com" class="button email btn">
+                E-mail <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+
+        <!-- Informações (Pens, Projects, Posts) -->
+        <div class="ds-info">
+            <div class="ds pens">
+                <h6 title="Número de gists criados pelo usuário">
+                    Pens <i class="fas fa-edit"></i>
+                </h6>
+                <p>0</p> <!-- Será atualizado pelo JavaScript -->
+            </div>
+            <div class="ds projects">
+                <h6 title="Número de projetos criados pelo usuário">
+                    Projects <i class="fas fa-project-diagram"></i>
+                </h6>
+                <p>0</p> <!-- Será atualizado pelo JavaScript -->
+            </div>
+            <div class="ds posts">
+                <h6 title="Número de contribuições recentes">
+                    Posts <i class="fas fa-comments"></i>
+                </h6>
+                <p>0</p> <!-- Será atualizado pelo JavaScript -->
+            </div>
+        </div>
+
+        <!-- Habilidades -->
+<div class="ds-skill">
+    <h6>
+        Skill <i class="fa fa-code" aria-hidden="true"></i>
+    </h6>
+    <div class="skill html">
+        <h6>
+            <i class="fab fa-html5"></i> HTML5
+        </h6>
+        <div class="bar bar-html" data-percentage="95">
+            <p>95%</p>
+        </div>
+    </div>
+    <div class="skill css">
+        <h6>
+            <i class="fab fa-css3-alt"></i> CSS3
+        </h6>
+        <div class="bar bar-css" data-percentage="90">
+            <p>90%</p>
+        </div>
+    </div>
+    <div class="skill javascript">
+        <h6>
+            <i class="fab fa-js"></i> JavaScript
+        </h6>
+        <div class="bar bar-js" data-percentage="75">
+            <p>75%</p>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Script para buscar dados do GitHub -->
+    <script src="script.js"></script>
+</body>
+</html>
