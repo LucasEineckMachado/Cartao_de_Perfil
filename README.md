@@ -10,7 +10,7 @@ Este é um **cartão interativo pessoal** desenvolvido por **Lucas Eineck Machad
 
 ## Funcionalidades 🎯
 
-- Cartão com informações de **contato** 📞 e **redes sociais** 📱 (Instagram, WhatsApp, GitHub, e-mail).
+- Cartão com informações de **contato** 📞 e **redes sociais** 📱 (Instagram, GitHub, e-mail).
 - **Animações interativas** 🌀 ao clicar nos ícones sociais.
 - **Alternância de tema** 🌞🌜 entre claro e escuro, proporcionando uma experiência visual personalizada.
 
